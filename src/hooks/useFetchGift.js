@@ -7,11 +7,15 @@ const useFetchGift = (category) => {
   const [state, setstate] = useState({
     data: [],
     pagination: null,
-    loading: true,
+    loading: false,
   })
   const [disableBtn, setDisabledBtn] = useState(false)
 
   const fetchImages = async () => {
+    setstate(prevState => ({
+      ...prevState,
+      loading: true,
+    }))
     const response = await getGif(category, offset * 10)
     setstate(prevState => ({
       ...prevState,
