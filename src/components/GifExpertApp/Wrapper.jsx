@@ -19,7 +19,7 @@ const GifExpertAppWrapper = () => {
         ))}
       </ol>
       <small>
-        Create by Yadu López 💛. Github <a href="https://yadurani.github.io/gifapp/" target="_blank" rel="noreferrer">GIFAPP</a>.
+        Create by Yadu López 💛. Github <a href="https://github.com/yadurani/gifapp" target="_blank" rel="noreferrer">GIFAPP</a>.
       </small>
     </div>
   )
