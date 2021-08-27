@@ -5,6 +5,7 @@ const AddCategory = ({ handleAdd }) => {
   const [inputValue, setInputValue] = useState('')
   
   const handleChange = (e) => setInputValue(e.target.value)
+  
   const handleSubmit = (e) => {
     e.preventDefault()
     if(inputValue.trim().length > 2) {

@@ -10,8 +10,8 @@ const GridItem = ({ url, title }) => {
 };
 
 GridItem.propTypes = {
-  url: PropTypes.string,
-  title: PropTypes.string
+  url: PropTypes.string.isRequired,
+  title: PropTypes.string.isRequired
 }
 
 export default GridItem

@@ -30,7 +30,7 @@ const GridList = ({ category }) => {
 };
 
 GridList.propTypes = {
-  category: PropTypes.string
+  category: PropTypes.string.isRequired
 }
 
 export default GridList

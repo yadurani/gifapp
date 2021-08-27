@@ -1,0 +1,71 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Probando el componente <GridList /> Debe de mostrar items cuando se cargan imagénes useFetchGifs 1`] = `
+<Fragment>
+  <div
+    className="subtitle"
+  >
+    <h3
+      className="animate__animated animate__fadeIn"
+    >
+      One punch
+    </h3>
+    <hr />
+    <button>
+      Ver más
+    </button>
+  </div>
+  <div
+    className="card-grid"
+  >
+    <GridItem
+      key="ABC"
+      title="Cualquier cosa"
+      url="https://localhost:3000/cosa.jpg"
+    />
+  </div>
+</Fragment>
+`;
+
+exports[`Probando el componente <GridList /> Debe hacer el toMatchSnapshot, componente cargando 1`] = `
+<Fragment>
+  <div
+    className="subtitle"
+  >
+    <h3
+      className="animate__animated animate__fadeIn"
+    >
+      One punch
+    </h3>
+    <hr />
+  </div>
+  <div
+    className="card-grid"
+  >
+    <LoadingSkeleton />
+  </div>
+</Fragment>
+`;
+
+exports[`Probando el componente <GridList /> Debe hacer el toMatchSnapshot, componente not found 1`] = `
+<Fragment>
+  <div
+    className="subtitle"
+  >
+    <h3
+      className="animate__animated animate__fadeIn"
+    >
+      One punch
+    </h3>
+    <hr />
+  </div>
+  <div
+    className="notfound"
+  >
+    Ups!! Not found, try again.
+  </div>
+  <div
+    className="card-grid"
+  />
+</Fragment>
+`;

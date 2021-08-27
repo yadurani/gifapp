@@ -1,0 +1,64 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Probando el componente <GifExpertAppWrapper/> Debe de mostrar una lista de categorias 1`] = `
+<div
+  className="container"
+>
+  <h2
+    className="title"
+  >
+    .GIFAPP.
+  </h2>
+  <AddCategory
+    handleAdd={[Function]}
+  />
+  <ol>
+    <GridList
+      category="One Punch"
+      key="One Punch"
+    />
+    <GridList
+      category="Dragon Ball"
+      key="Dragon Ball"
+    />
+  </ol>
+  <small>
+    Create by Yadu López 💛. Github 
+    <a
+      href="https://github.com/yadurani/gifapp"
+      rel="noreferrer"
+      target="_blank"
+    >
+      GIFAPP
+    </a>
+    .
+  </small>
+</div>
+`;
+
+exports[`Probando el componente <GifExpertAppWrapper/> Debe hacer el toMatchSnapshot 1`] = `
+<div
+  className="container"
+>
+  <h2
+    className="title"
+  >
+    .GIFAPP.
+  </h2>
+  <AddCategory
+    handleAdd={[Function]}
+  />
+  <ol />
+  <small>
+    Create by Yadu López 💛. Github 
+    <a
+      href="https://github.com/yadurani/gifapp"
+      rel="noreferrer"
+      target="_blank"
+    >
+      GIFAPP
+    </a>
+    .
+  </small>
+</div>
+`;

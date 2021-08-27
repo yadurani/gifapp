@@ -2,8 +2,9 @@ import React, { useState } from 'react';
 import AddCategory from './AddCategory';
 import GridList from './GridList';
 
-const GifExpertAppWrapper = () => {
-  const [categories, setCategories] = useState(['One punch'])
+const GifExpertAppWrapper = ({ defaultCategories = []}) => {
+  // const [categories, setCategories] = useState(['One punch'])
+  const [categories, setCategories] = useState(defaultCategories)
 
   const handleAdd = (value) => setCategories(prevState => ([ value , ...prevState ]))
   
